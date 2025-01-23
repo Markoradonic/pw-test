@@ -3,7 +3,7 @@ import {test} from "@playwright/test"
 
 test.beforeEach(async({page}) => {
     await page.setViewportSize({ width: 1920, height: 1080 });
-    await page.goto('https://automationtesting.co.uk')
+    await page.goto('/')
 })
 
 test.afterEach(async({page}) =>{
